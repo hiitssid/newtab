@@ -1,4 +1,4 @@
-import './Card.css'
+import './Card.scss'
 import { useState, useEffect } from "react";
 
 // import { FaTimes } from "react-icons/fa";

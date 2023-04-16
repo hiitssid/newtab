@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Card from "./Card";
-import "./Todo.css";
+import "./Todo.scss";
 
 const localStorageKey = "toDoKey";
 export default function App() {

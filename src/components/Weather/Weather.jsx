@@ -81,8 +81,8 @@ export default function App() {
           <p>{apiData?.weather[0].main}</p>
         </div>
         <div className="misc-info">
-            <p>Max : {apiData?.main.temp_max}&deg;C</p>
-            <p>Min : {apiData?.main.temp_min}&deg;C</p>
+            <p>Max : {Math.floor(apiData?.main.temp_max)}&deg;C</p>
+            <p>Min : {Math.floor(apiData?.main.temp_min)}&deg;C</p>
         </div>
       </div>
     </div>

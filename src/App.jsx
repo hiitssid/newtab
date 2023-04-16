@@ -1,14 +1,14 @@
-import Weather from './components/Weather'
+import Weather from './components/Weather/Weather'
+import Todo from './components/Todo/Todo'
+import './App.scss'
 function App() {
   
 
   return (
     <div className="App">
    <Weather/>
-   <div style={{background:'red'}}></div>
-   <div style={{background:'green'}}></div>
-   <div style={{background:'blue'}}></div>
-    </div>
+   <Todo/>
+      </div>
   )
 }
 
